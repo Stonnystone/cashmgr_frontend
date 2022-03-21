@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 40px rgb(51 51 51 / 10%);
+  margin-bottom: 28px;
+}
+
+
+@import url("./auth/_toastify.css");
+
+.loader{
+  display: flex;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.loader.show{
+  /* height: 0; */
+  /* opacity: 0; */
+  display: none;
+  /* visibility: hidden; */
+}
